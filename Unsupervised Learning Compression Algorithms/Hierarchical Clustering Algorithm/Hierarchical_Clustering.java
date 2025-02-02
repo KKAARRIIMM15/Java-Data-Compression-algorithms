@@ -130,6 +130,9 @@ class PixelCluster {
  
         this.pixels.addAll(other.pixels);
     }
+
+    
+    /************************* main  **************************************/
     
    public static void main(String[] args) throws IOException {
         String imagePath = "checker.png";  
