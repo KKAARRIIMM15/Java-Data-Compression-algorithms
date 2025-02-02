@@ -139,7 +139,7 @@ class PixelCluster {
         
         List<PixelCluster> clusters = extractPixels(image);
 
-        int numClusters = 2; 
+        int numClusters = 16; 
         List<PixelCluster> finalClusters = hierarchicalClustering(clusters, numClusters);
 
         //  Replace pixels with cluster centroids (Compression)
