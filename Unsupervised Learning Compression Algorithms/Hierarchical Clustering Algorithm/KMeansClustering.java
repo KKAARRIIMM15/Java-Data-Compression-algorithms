@@ -1,6 +1,5 @@
 
-package com.mycompany.a_kmeans;
-
+package lzw;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
